@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "name": "my debug",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceRoot}/a.out",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": true,
+      "MIMode": "lldb",
+      "preLaunchTask": "C/C++: gcc build active file"
+    }
+  ],
+  "version": "2.0.0",
+  "C_Cpp.errorSquiggles": "disabled",
+  "files.associations": {
+    "ostream": "cpp",
+    "algorithm": "cpp"
+  }
+}
